@@ -30,5 +30,5 @@ resource "google_storage_transfer_job" "gcs-transfer-service-job" {
     }
   }
 
-  depends_on = [google_storage_bucket_iam_member.default_sa_transfer_service_bucket_writer]
+  #depends_on = [google_storage_bucket_iam_member.default_sa_transfer_service_bucket_writer]
 }
