@@ -12,7 +12,7 @@ resource "google_storage_transfer_job" "gcs-transfer-service-job" {
       path = ""
     }
     gcs_data_sink {
-      bucket_name = google_storage_bucket.end_bucket.name
+      bucket_name = var.end_bucket
       path        = ""
     }
   }

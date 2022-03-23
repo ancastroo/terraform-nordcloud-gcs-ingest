@@ -10,6 +10,8 @@ variable "schedule_day" {}
 
 variable "end_bucket_name" {}
 
+variable "end_bucket" {}
+
 variable "source_buckets_list" {
     type = map(any)
 }
